@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# "Best School" is displayed 10 times in this script as per requirement
+
+i=0
+while [ "$i" -lt "10" ]
+do
+    echo "Best School"
+    i=$(( i + 1 ))
+done
+
