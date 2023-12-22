@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# This script displays the content of the current directory
+
+list=$(ls)  # used command substition
+
+for VAR in $list    # loop through all filenames in directory
+do
+    echo "$VAR" | cut -d "-" -f 2-  # when - is reached and returns the field 2 downwards, cut the file
+done
