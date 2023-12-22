@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# the PID, along with the process name, of processes is displayed
+# firstly: bash PID
+# secondly: script (3-show_your_bash_pid_made_easy) PID
+
+pgrep -l bash
