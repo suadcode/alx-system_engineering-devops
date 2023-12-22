@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+# This script shows indefinitely  process as per request
+
+# Handle SIGTERM
+trap "echo 'I am invincible!!!'" 15
+
+# trap "echo I am invincible!!!" SIGTERM
+
+while true
+do
+    echo "To infinity and beyond"
+    sleep 2
+done
