@@ -1,4 +1,4 @@
-# creates a file in the /tmp directory
+# creates a file in /tmp 
 # with the following requirements
 
 file { 'school':
